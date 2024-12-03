@@ -29,7 +29,7 @@ const corsOption ={
     origin: '*',
     credentials:true
 }
-app.use(cors());
+app.use(cors(corsOption));
 
 
 const PORT = process.env.PORT || 3000;
